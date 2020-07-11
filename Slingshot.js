@@ -16,7 +16,7 @@ class SlingShot{
     
 
     display(){
-        image(this.sling1,200,20,40);
+        image(this.sling1,200,20,30,40);
         if(this.sling.bodyA){
             var pointA = this.sling.bodyA.position;
             var pointB = this.pointB;
